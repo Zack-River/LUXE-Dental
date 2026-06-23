@@ -33,8 +33,11 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center pt-20 pb-16 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/clinic_interior_new.png" 
+            src="/images/clinic_interior_new.webp" 
             alt="Luxe Dental Interior" 
+            fetchpriority="high"
+            width="1920"
+            height="1080"
             className="w-full h-full object-cover object-center"
           />
           <div className="absolute inset-0 bg-navy-900/60 dark:bg-navy-900/80 backdrop-blur-[2px]"></div>
@@ -88,28 +91,28 @@ export default function Home() {
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="flex flex-col md:flex-row items-center md:items-start gap-4 justify-center md:justify-start px-4">
               <CheckCircle className="text-primary-500 shrink-0" size={32} />
               <div>
-                <h4 className="font-bold text-text-primary">{t('recognition.boardCertified.title')}</h4>
+                <h2 className="font-bold text-text-primary text-base">{t('recognition.boardCertified.title')}</h2>
                 <p className="text-sm text-text-muted">{t('recognition.boardCertified.desc')}</p>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.1 }} className="flex flex-col md:flex-row items-center md:items-start gap-4 justify-center md:justify-start px-4">
               <Star className="text-primary-500 shrink-0" size={32} />
               <div>
-                <h4 className="font-bold text-text-primary">{t('recognition.topRated.title')}</h4>
+                <h2 className="font-bold text-text-primary text-base">{t('recognition.topRated.title')}</h2>
                 <p className="text-sm text-text-muted">{t('recognition.topRated.desc')}</p>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="flex flex-col md:flex-row items-center md:items-start gap-4 justify-center md:justify-start px-4">
               <Award className="text-primary-500 shrink-0" size={32} />
               <div>
-                <h4 className="font-bold text-text-primary">{t('recognition.awardWinning.title')}</h4>
+                <h2 className="font-bold text-text-primary text-base">{t('recognition.awardWinning.title')}</h2>
                 <p className="text-sm text-text-muted">{t('recognition.awardWinning.desc')}</p>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.3 }} className="flex flex-col md:flex-row items-center md:items-start gap-4 justify-center md:justify-start px-4">
               <ShieldCheck className="text-primary-500 shrink-0" size={32} />
               <div>
-                <h4 className="font-bold text-text-primary">{t('recognition.advancedTech.title')}</h4>
+                <h2 className="font-bold text-text-primary text-base">{t('recognition.advancedTech.title')}</h2>
                 <p className="text-sm text-text-muted">{t('recognition.advancedTech.desc')}</p>
               </div>
             </motion.div>
@@ -128,9 +131,11 @@ export default function Home() {
               transition={{ duration: 0.6 }}
             >
               <img 
-                src="/images/clinic_interior_new.png" 
+                src="/images/clinic_interior_new.webp" 
                 alt="Clinic Interior" 
-                className="rounded-3xl shadow-xl w-full"
+                width="800"
+                height="800"
+                className="rounded-3xl shadow-xl w-full aspect-square object-cover"
                 loading="lazy"
               />
             </motion.div>
@@ -168,7 +173,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8 mb-20 items-center">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="md:col-span-6 order-2 md:order-1">
-              <img src="/images/patient_relaxing.png" alt="Patient relaxing" className="w-full h-[500px] object-cover rounded-xl shadow-md" loading="lazy" />
+              <img src="/images/patient_relaxing.webp" alt="Patient relaxing" width="1024" height="500" className="w-full h-[500px] object-cover rounded-xl shadow-md" loading="lazy" />
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="md:col-span-5 md:col-start-8 order-1 md:order-2 flex flex-col gap-10">
               <div>
@@ -244,7 +249,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="h-64 md:h-auto">
-              <img src="/images/technology_scan.png" alt="Technology Scan" className="w-full h-full object-cover" loading="lazy" />
+              <img src="/images/technology_scan.webp" alt="Technology Scan" width="1024" height="1024" className="w-full h-full object-cover" loading="lazy" />
             </div>
           </motion.div>
         </div>
@@ -261,14 +266,14 @@ export default function Home() {
                 <div className="flex gap-4">
                   <div className="mt-1 text-primary-500"><GraduationCap size={24} /></div>
                   <div>
-                    <h4 className="font-bold text-text-primary">{t('team.ivy.title')}</h4>
+                    <h3 className="font-bold text-text-primary text-base">{t('team.ivy.title')}</h3>
                     <p className="text-sm text-text-muted mt-1">{t('team.ivy.desc')}</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
                   <div className="mt-1 text-primary-500"><Users size={24} /></div>
                   <div>
-                    <h4 className="font-bold text-text-primary">{t('team.collab.title')}</h4>
+                    <h3 className="font-bold text-text-primary text-base">{t('team.collab.title')}</h3>
                     <p className="text-sm text-text-muted mt-1">{t('team.collab.desc')}</p>
                   </div>
                 </div>
@@ -276,7 +281,7 @@ export default function Home() {
               <Button as={Link} to="/about" variant="outline" className="mt-10">{t('team.button')}</Button>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="md:col-span-7">
-              <img src="/images/dental_team.png" alt="The Team" className="w-full h-[500px] object-cover rounded-xl shadow-md" loading="lazy" />
+              <img src="/images/dental_team.webp" alt="The Team" width="1024" height="500" className="w-full h-[500px] object-cover rounded-xl shadow-md" loading="lazy" />
             </motion.div>
           </div>
         </div>
