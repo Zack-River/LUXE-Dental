@@ -2,6 +2,7 @@
   "name": "dental-clinic",
   "private": true,
   "version": "0.0.0",
+  "description": "Luxe Dental is a premium, bilingual (English/Arabic) dental platform built with React, Vite, and Tailwind. It features dynamic service filtering, a glassmorphism UI, custom dark mode, and an interactive before/after gallery. Engineered for flawless SEO and performance, it redefines the modern patient digital experience.",
   "type": "module",
   "scripts": {
     "dev": "vite",
