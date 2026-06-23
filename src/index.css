@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-page:      theme(colors.warm.50);
+    --bg-surface:   #FFFFFF;
+    --bg-elevated:  theme(colors.warm.100);
+    --text-primary: theme(colors.warm.900);
+    --text-muted:   theme(colors.warm.700);
+    --border:       theme(colors.warm.200);
+    
+    --shadow-card:   0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.06);
+    --shadow-hover:  0 4px 8px rgba(0,0,0,.08), 0 12px 32px rgba(0,0,0,.10);
+    --shadow-modal:  0 20px 60px rgba(0,0,0,.18);
+    
+    font-family: 'Inter', sans-serif;
+  }
+
+  .dark {
+    --bg-page:      theme(colors.navy.900);
+    --bg-surface:   theme(colors.navy.800);
+    --bg-elevated:  #1E3044;
+    --text-primary: #F0EFE9;
+    --text-muted:   #9A9890;
+    --border:       #2A3D52;
+  }
+
+  [lang="ar"] body { font-family: 'Cairo', sans-serif; }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .interactive:active {
+    transform: scale(0.97);
+    transition: transform 100ms ease;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
