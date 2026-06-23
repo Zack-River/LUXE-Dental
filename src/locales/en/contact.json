@@ -1,0 +1,16 @@
+{
+  "title": "Contact & Book Appointment",
+  "subtitle": "We look forward to welcoming you. Reach out to schedule your visit or ask any questions.",
+  "form": {
+    "title": "Send us a message",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "service": "Service of Interest",
+    "message": "Additional Details",
+    "submit": "Request Appointment"
+  },
+  "info": {
+    "title": "Clinic Information"
+  }
+}

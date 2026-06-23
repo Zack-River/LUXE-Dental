@@ -1,0 +1,38 @@
+{
+  "title": "Patient Experience",
+  "subtitle": "Don't just take our word for it. Read what our patients have to say about their Luxe Dental experience.",
+  "rating": "Average Rating",
+  "reviews": "Patient Reviews",
+  "comforts": {
+    "title": "Curated Comforts",
+    "subtitle": "Every detail of our space has been carefully selected to alleviate anxiety and promote relaxation.",
+    "suites": {
+      "title": "Private Suites",
+      "desc": "Spacious, acoustically isolated rooms designed to ensure complete privacy and a serene environment free from typical clinical noise."
+    },
+    "blankets": {
+      "title": "Weighted Blankets",
+      "desc": "Experience the calming, grounding effect of our premium weighted blankets, and immerse yourself in curated playlists with noise-canceling headphones."
+    },
+    "lounge": {
+      "title": "Refreshment Lounge",
+      "desc": "Arrive early to enjoy artisanal teas, sparkling water, and warm scented towels in our dedicated relaxation lounge."
+    }
+  },
+  "tech": {
+    "title": "Precision Meets Comfort",
+    "subtitle": "We invest in the world's most advanced dental technology not just for clinical excellence, but to make your experience faster, less invasive, and entirely comfortable.",
+    "scan": {
+      "title": "Digital 3D Scanning",
+      "desc": "Say goodbye to uncomfortable impression material. Our precision scanners create perfect digital models in minutes."
+    },
+    "laser": {
+      "title": "Laser Dentistry",
+      "desc": "Quiet, virtually painless procedures with significantly reduced recovery times compared to traditional methods."
+    },
+    "crowns": {
+      "title": "Single-Visit Crowns",
+      "desc": "On-site milling technology allows us to design, create, and place premium restorations in a single appointment."
+    }
+  }
+}

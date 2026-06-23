@@ -1,0 +1,29 @@
+{
+  "title": "Treatments & Advanced Surgery",
+  "subtitle": "Comprehensive dental care utilizing the latest technology for precise, pain-free results.",
+  "categories": {
+    "all": "All Services",
+    "cosmetic": "Cosmetic",
+    "restorative": "Restorative",
+    "preventive": "Preventive",
+    "orthodontic": "Orthodontics"
+  },
+  "cta": {
+    "title": "Need a Consultation?",
+    "text": "Our specialists are here to design a personalized treatment plan for you.",
+    "button": "Book Consultation"
+  },
+  "technology": {
+    "badge": "Precision Care",
+    "title": "Technology & Innovation",
+    "desc": "We invest in the latest advancements in dental technology to ensure your treatments are minimally invasive, highly accurate, and incredibly efficient. Our digital workflow eliminates guesswork.",
+    "scan": {
+      "title": "3D Digital Scanning",
+      "desc": "Say goodbye to uncomfortable traditional impressions. Our intraoral scanners create precise 3D models of your dentition in minutes."
+    },
+    "laser": {
+      "title": "Laser Dentistry",
+      "desc": "Advanced soft-tissue lasers provide exact contouring with minimal discomfort and significantly accelerated healing times."
+    }
+  }
+}

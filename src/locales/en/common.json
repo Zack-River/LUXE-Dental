@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "testimonials": "Testimonials",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contact": "Contact & Hours",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy"
+  },
+  "buttons": {
+    "bookNow": "Book Appointment",
+    "viewServices": "View Services",
+    "learnMore": "Learn More",
+    "readAll": "Read All Reviews",
+    "seeGallery": "See Full Gallery"
+  },
+  "brand": {
+    "tagline": "Your perfect smile starts here.",
+    "philosophy": "More Than a Dental Clinic"
+  }
+}

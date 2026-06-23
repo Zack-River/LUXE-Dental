@@ -1,0 +1,24 @@
+{
+  "title": "Privacy Policy",
+  "subtitle": "How we protect your data at Luxe Dental",
+  "lastUpdated": "Last updated: June 2026",
+  "intro": "At Luxe Dental, your privacy and the security of your personal information are of paramount importance to us. This Privacy Policy outlines how we collect, use, and safeguard your data when you visit our website or use our services.",
+  "sections": [
+    {
+      "title": "1. Information We Collect",
+      "content": "We collect information you provide directly to us, such as your name, email address, phone number, and any medical or dental history you choose to share when booking an appointment."
+    },
+    {
+      "title": "2. How We Use Your Information",
+      "content": "We use your information to provide, maintain, and improve our services, schedule appointments, send you reminders, and communicate with you about your treatments."
+    },
+    {
+      "title": "3. Information Sharing",
+      "content": "We do not sell your personal data. We may share information with trusted third-party service providers who assist us in operating our website and conducting our business, so long as those parties agree to keep this information confidential."
+    },
+    {
+      "title": "4. Data Security",
+      "content": "We implement a variety of security measures to maintain the safety of your personal information. Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems."
+    }
+  ]
+}

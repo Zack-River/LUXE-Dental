@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "badge": "More Than a Dental Clinic",
+    "headline": "Redefining modern dental care.",
+    "subheadline": "Healthcare, technology, hospitality, and design come together to create a better experience from the moment you walk through the door."
+  },
+  "about": {
+    "title": "The Story Behind Luxe Dental",
+    "text1": "Many patients delay dental treatment for years. Not because they don't understand its importance, but because they associate dental visits with discomfort, anxiety, confusion, and uncertainty.",
+    "text2": "Luxe Dental was founded with the belief that great dentistry begins long before treatment starts. It begins with trust, communication, and creating an environment where patients feel understood.",
+    "badge1": "Prevention First",
+    "badge2": "Transparent Care",
+    "badge3": "Human & Tech"
+  },
+  "services": {
+    "title": "Our Philosophy",
+    "subtitle": "Proactive, not reactive. Explore our treatments."
+  },
+  "cta": {
+    "title": "Ready for a brighter smile?",
+    "subtitle": "Book your appointment today and experience the difference."
+  },
+  "recognition": {
+    "boardCertified": { "title": "Board Certified", "desc": "Specialist Practitioners" },
+    "topRated": { "title": "Top Rated Clinic", "desc": "5-Star Patient Reviews" },
+    "awardWinning": { "title": "Award Winning", "desc": "Design & Care Excellence" },
+    "advancedTech": { "title": "Advanced Technology", "desc": "State-of-the-Art Equipment" }
+  },
+  "experience": {
+    "title": "The Lumina Experience",
+    "subtitle": "Redefining dental visits through a focus on sensory comfort, expert care, and an environment designed to put you completely at ease.",
+    "acoustic": { "title": "Acoustic Serenity", "desc": "Immerse yourself in calm with our curated noise-canceling audio options, ensuring a peaceful environment from the moment you sit down." },
+    "amenities": { "title": "Luxury Amenities", "desc": "Enjoy weighted blankets, ergonomic memory foam seating, and warm aromatherapy towels designed to relieve tension." },
+    "testimonials": {
+      "t1": { "text": "\"The most relaxing dental experience I've ever had. The attention to detail and the sheer comfort of the clinic made all my anxiety disappear.\"", "author": "Sarah J." },
+      "t2": { "text": "\"Impeccable service from start to finish. The technology they use is incredible, and the staff is genuinely caring and professional.\"", "author": "Michael T." },
+      "t3": { "text": "\"Aesthetically stunning clinic, but more importantly, the results of my cosmetic treatment exceeded all expectations. Highly recommended.\"", "author": "Elena R." }
+    }
+  },
+  "comprehensive": {
+    "title": "Comprehensive Care",
+    "subtitle": "Expertise spanning across all facets of modern dentistry, utilizing advanced techniques for optimal, lasting results.",
+    "viewAll": "View All Treatments",
+    "categories": {
+      "cosmetic": { "title": "Cosmetic Dentistry", "desc": "Veneers, professional whitening, and comprehensive smile design." },
+      "restorative": { "title": "Restorative Care", "desc": "Precision crowns, bridges, and tooth-colored composite fillings." },
+      "surgical": { "title": "Surgical Procedures", "desc": "Expert implant placement, extractions, and bone grafting." },
+      "general": { "title": "General Dentistry", "desc": "Preventative care, thorough examinations, and professional hygiene." }
+    },
+    "feature": {
+      "badge": "Precision Engineered",
+      "title": "Implantology Excellence",
+      "desc": "Our surgical suites are equipped with state-of-the-art 3D imaging and guided surgery technology, ensuring precise placement and optimal recovery for restorative procedures.",
+      "link": "Learn about Implants"
+    }
+  },
+  "team": {
+    "title": "The Hands Behind the Smile",
+    "subtitle": "Our carefully selected team of specialists brings together decades of experience, continuous education, and a shared passion for patient-centric care.",
+    "ivy": { "title": "Ivy League Educated", "desc": "Our specialists hold degrees from top-tier institutions." },
+    "collab": { "title": "Collaborative Approach", "desc": "Complex cases are reviewed by our entire panel of experts." },
+    "button": "Meet the Full Team"
+  },
+  "pricing": {
+    "title": "Investment in Your Smile",
+    "subtitle": "Transparent pricing for premium care. We believe in providing clear expectations without hidden costs.",
+    "header": "Core Services",
+    "starting": "*Starting prices",
+    "items": [
+      { "name": "Comprehensive Consultation", "desc": "Includes 3D scan, thorough exam, and personalized treatment plan.", "price": "$150" },
+      { "name": "Professional Whitening", "desc": "In-clinic laser whitening session for immediate results.", "price": "$450" },
+      { "name": "Porcelain Veneers", "desc": "Custom-crafted high-end veneers per tooth.", "price": "$1,200" }
+    ],
+    "footer": "Flexible financing options available. Contact us for detailed estimates."
+  }
+}

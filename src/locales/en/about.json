@@ -1,0 +1,19 @@
+{
+  "title": "Our Philosophy & Team",
+  "subtitle": "Get to know the experts behind your perfect smile.",
+  "philosophy": {
+    "title": "Space as Medicine",
+    "desc": "Our clinic was designed with the understanding that environment influences anxiety. By utilizing natural light, acoustic dampening materials, and a muted, warm palette, we create a sense of 'quiet luxury' that allows you to relax the moment you step through our doors."
+  },
+  "clinical": {
+    "title": "Clinical Precision",
+    "desc": "We invest in the quietest, most advanced diagnostic technologies to ensure meticulous treatment planning without the sensory overload of traditional clinics."
+  },
+  "care": {
+    "title": "Unhurried Care",
+    "desc": "We schedule generous time for every appointment, ensuring our specialists can dedicate their full attention to your care and comfort."
+  },
+  "team": {
+    "title": "Meet the Specialists"
+  }
+}

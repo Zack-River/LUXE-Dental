@@ -1,0 +1,21 @@
+{
+  "title": "Smile Transformations",
+  "subtitle": "Real patients, real results. See the difference Luxe Dental makes.",
+  "before": "Before",
+  "after": "After",
+  "case": "Case Study",
+  "beforeAfter": {
+    "title": "Brilliant Results",
+    "badge": "Professional Whitening",
+    "goal": "Goal:",
+    "goalDesc": "Eliminate deep stains and achieve a naturally bright, radiant smile.",
+    "treatment": "Treatment:",
+    "treatmentDesc": "In-office laser whitening combined with a custom take-home protocol for lasting results.",
+    "outcome": "Outcome:",
+    "outcomeDesc": "A stunning, luminous smile that enhances overall facial aesthetics without sensitivity."
+  },
+  "process": {
+    "title": "Bespoke Design Process",
+    "desc": "Every transformation begins with our comprehensive Digital Smile Design consultation. We utilize advanced 3D imaging and facial analysis to architect a smile that harmonizes perfectly with your unique features, ensuring predictable, breathtaking results before treatment even begins."
+  }
+}

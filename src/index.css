@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
+  }
+  
+  section {
+    scroll-snap-align: start;
+    scroll-margin-top: 5rem;
+  }
+
   :root {
     --bg-page:      theme(colors.warm.50);
     --bg-surface:   #FFFFFF;

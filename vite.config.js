@@ -13,15 +13,5 @@ export default defineConfig({
     cssCodeSplit: true,
     sourcemap: false,
     minify: 'esbuild',
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          'vendor-react':  ['react', 'react-dom', 'react-router-dom'],
-          'vendor-motion': ['framer-motion'],
-          'vendor-i18n':   ['react-i18next', 'i18next'],
-          'vendor-forms':  ['react-hook-form', 'zod'],
-        },
-      },
-    },
   },
 });
